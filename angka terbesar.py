@@ -14,7 +14,3 @@ c= int(input("masukan angka 3: "))
 cek_max= max(a, b, c)
 print ("nilai maximal dari ", a,",", b,",", c, "adalah ", cek_max)
 print ("nilai maximal adalah: ", cek_max)
-
-cek_min= min(a, b, c)
-print ("nilai manimal dari ", a,",", b,",", c, "adalah ", cek_min)
-print ("nilai minimal adalah: ", cek_min)
