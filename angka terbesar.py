@@ -7,10 +7,9 @@ def max (angka1, angka2, angka3) :
     else :
         return angka3
 
-a= int(input("masukan angka 1: "))
-b= int(input("masukan angka 2: "))
-c= int(input("masukan angka 3: "))
+a= int(float(input("masukan angka 1: ")))
+b= int(float(input("masukan angka 2: ")))
+c= int(float(input("masukan angka 3: ")))
 
 cek_max= max(a, b, c)
 print ("nilai maximal dari ", a,",", b,",", c, "adalah ", cek_max)
-print ("nilai maximal adalah: ", cek_max)
